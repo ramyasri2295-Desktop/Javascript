@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementation of Java Script</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <button class="border px-4 py-2 rounded m-4 bg-indigo-500 text-white hover:bg-indigo-700" onclick="alert('Button is clicked')">Inline Javascript</button>
+
+
+
+    <button class="border px-4 py-2 rounded m-4 bg-green-500 text-white hover:bg-green-700" onclick="greet()">Internal JavaScript</button>
+
+
+    <button class="border px-6 py-2 rounded m-4 bg-red-500 text-white hover:bg-red-700" onclick="externalGreet()">External JavaScript</button>
+
+
+    <script>
+        function greet(){
+            alert('Hello from Internal Javascript')
+        }
+    </script>
+
+
+    <button class="border-none px-2 py-2 bg-red-300 rounded m-2 hover:bg-red-500 text-black " onclick="alert('button is clicked')">Inline js</button>
+
+    <button class="border-none px-2 py-2 m-2 bg-indigo-300 text-white rounded hover:bg-indigo-500" onclick="internal()">Internal js</button>
+
+    <button class="border-none px-2 py-2 m-2 rounded bg-green-300 text-white hover:bg-green-500" onclick="external()">External js</button>
+
+    <script>
+        function internal(){
+            alert('button is clicked from internal js')
+        }
+    </script>
+
+    <script src="../day-1 introduction/into.js"></script>
+    
+</body>
+</html>
